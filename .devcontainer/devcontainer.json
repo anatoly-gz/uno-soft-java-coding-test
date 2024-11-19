@@ -1,0 +1,12 @@
+{
+    "name": "openjdk-fedora",
+    "build": {
+        "dockerfile": "openjdk-fedora.containerfile",
+        "args": {
+            "JAVA_VERSION": "21",
+            "GRADLE_VERSION": "8.11",
+            "USER": "user"
+        }
+    },
+    "containerUser": "user"
+}
